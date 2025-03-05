@@ -23,7 +23,7 @@ public class CartServiceTest {
 
     @Test
     public void testCreateCart(){
-        Long cartId = 1L;
+        Long cartId = 2L;
         Cart cartMock = new Cart(cartId,new ArrayList<>(), LocalDateTime.now());
 
         Cart cartResult = this.cartService.createCart();
