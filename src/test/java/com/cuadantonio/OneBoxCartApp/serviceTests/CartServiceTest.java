@@ -31,7 +31,7 @@ public class CartServiceTest {
         Assertions.assertNotNull(cartResult);
         Assertions.assertEquals(cartId, cartResult.getId());
         Assertions.assertEquals(cartMock.getCartProducts(),cartResult.getCartProducts());
-        Assertions.assertEquals(cartMock.getCreatedAt(),cartResult.getCreatedAt());
+        Assertions.assertEquals(cartMock.getCreatedAndUpdatedAt(),cartResult.getCreatedAndUpdatedAt());
     }
 
     @Test

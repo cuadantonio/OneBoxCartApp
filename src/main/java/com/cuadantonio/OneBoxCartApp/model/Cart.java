@@ -14,5 +14,5 @@ public class Cart {
 
     private Long id;
     private List<CartProduct> cartProducts;
-    private LocalDateTime createdAt;
+    private LocalDateTime createdAndUpdatedAt;
 }

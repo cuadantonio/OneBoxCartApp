@@ -7,6 +7,8 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
+
+//Class created to control the proudcts that are added to a cart
 public class CartProduct {
     private String description;
     private Long amount;

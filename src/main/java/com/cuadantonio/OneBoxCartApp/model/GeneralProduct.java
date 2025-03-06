@@ -7,6 +7,8 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
+
+//Class created to control the stock of a product when created
 public class GeneralProduct {
     private Long id;
     private String description;
