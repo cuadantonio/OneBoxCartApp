@@ -56,3 +56,5 @@ To run the app you have two options:
   
   Replace `<containername>` with the actual name of the container.
 
+  To test the app you can use the `CartsApp.postman_collection.json` file on Postman.
+
